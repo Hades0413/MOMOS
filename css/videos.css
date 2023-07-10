@@ -10,6 +10,37 @@ body {
     background-color: #334;
 }
 
+/* CARGA */
+#fullscreen-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/video/carga.gif");
+    /*background-size: cover;*/
+    animation: fadeOut 5s ease-in-out forwards;
+    z-index: 9999;
+    pointer-events: none; /* Agrega esta línea */
+}
+
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* CARGA */
+
 
 /* TITULO */
 
