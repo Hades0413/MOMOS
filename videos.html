@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Videos</title>
     <link rel="stylesheet" href="css/videos.css">
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4dd764bfea.js" crossorigin="anonymous"></script>
 </head>
 
@@ -25,11 +25,11 @@
         <input type="checkbox" id="btn">
         <ul>
             <li><a class="link" href="index.html">HOME</a></li>
-    
+
             <li><a class="link" href="imagenes.html">IMÁGENES</a></li>
-    
+
             <li><a class="link" href="videos.html">VIDEOS</a></li>
-    
+
             <li><a class="link" href="nosotros.html">NOSOTROS</a></li>
         </ul>
     </nav>
@@ -282,6 +282,22 @@
             </div>
             <div class="video"><video src="assets/video/124.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
             </div>
+            <div class="video"><video src="assets/video/125.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div class="video"><video src="assets/video/126.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div class="video"><video src="assets/video/127.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div class="video"><video src="assets/video/128.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div class="video"><video src="assets/video/129.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div class="video"><video src="assets/video/130.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div class="video"><video src="assets/video/131.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div class="video"><video src="assets/video/132.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
+            </div>
 
 
             <div class="video"><video src="assets/video/1.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
@@ -289,11 +305,17 @@
             <div class="video"><video src="assets/video/2.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
             </div>
         </div>
+
         <div class="emergente">
             <span><i class="fa-solid fa-circle-xmark"></i></span>
             <video src="assets/video/4.mp4" muted autoplay controls></video>
             <img loading="lazy" src="assets/img/1.png" alt="">
+            <div id="video-controls" class="hidden">
+                <button id="previous-video-btn">&lt;</button>
+                <button id="next-video-btn">&gt;</button>
+            </div>
         </div>
+
     </div>
 
 
@@ -348,39 +370,10 @@
         </div>
     </footer>
 
-    
 
 
-    <script>
-        document.querySelectorAll('.video-contenedor div').forEach(el => {
-            el.onclick = () => {
-                const video = el.querySelector('video');
-                const img = el.querySelector('img');
-                const emergenteVideo = document.querySelector('.emergente video');
-                const emergenteImg = document.querySelector('.emergente img');
 
-                if (video) {
-                    emergenteVideo.style.display = 'block';
-                    emergenteVideo.src = video.getAttribute('src');
-                    emergenteImg.style.display = 'none';
-                } else if (img) {
-                    emergenteImg.style.display = 'block';
-                    emergenteImg.src = img.getAttribute('src');
-                    emergenteVideo.style.display = 'none';
-                }
-
-                document.querySelector('.emergente').style.display = 'flex';
-                document.querySelector('.contenedor').style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
-            }
-        });
-
-        document.querySelector('.emergente span').onclick = () => {
-            document.querySelector('.emergente').style.display = 'none';
-            document.querySelector('.emergente video').pause();
-            document.querySelector('.emergente img').style.display = 'none';
-            document.querySelector('.contenedor').style.backgroundColor = '#334';
-        }
-    </script>
+    <script src="js/videos.js"></script>
 
 </body>
 
