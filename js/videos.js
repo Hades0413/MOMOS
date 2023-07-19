@@ -63,6 +63,11 @@ document.addEventListener('DOMContentLoaded', function () {
       changeVideo('next');
     } else if (event.key === 'ArrowLeft') {
       changeVideo('previous');
+    } else if (event.key === 'Escape') {
+      document.querySelector('.emergente').style.display = 'none';
+      document.querySelector('.emergente video').pause();
+      document.querySelector('.emergente img').style.display = 'none';
+      document.querySelector('.contenedor').style.backgroundColor = '#334';
     }
   });
 
@@ -78,6 +83,11 @@ document.addEventListener('DOMContentLoaded', function () {
   videosInEmergente.forEach((video) => {
     video.addEventListener('click', (event) => {
       event.stopPropagation();
+      video.play();
+    });
+
+    video.addEventListener('ended', () => {
+      video.currentTime = 0;
       video.play();
     });
   });
