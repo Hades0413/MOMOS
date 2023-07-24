@@ -1,3 +1,11 @@
+// Precarga de la imagen
+var image = new Image();
+image.src = "../assets/video/carga.gif";
+image.onload = function() {
+    document.getElementById("fullscreen-image").style.backgroundImage = "url('" + image.src + "')";
+};
+
+
 document.addEventListener('DOMContentLoaded', function () {
   const videos = Array.from(document.querySelectorAll('.video-contenedor .video'));
   let currentIndex = 0;

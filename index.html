@@ -7,11 +7,25 @@
     <title>Inicio</title>
     <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/4dd764bfea.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 
 <body>
+
+    <div id="preloader">
+        <div id="genkidama-container">
+            <div id="genkidama"></div>
+        </div>
+        <img loading="lazy" src="assets/img/carga.png" alt="Preloader">
+        <div id="progress-container">
+            <div id="progress-text">Cargando... <span id="progress-percent">0%</span></div>
+            <div id="progress-bar">
+                <div id="progress-bar-fill"></div>
+            </div>
+        </div>
+    </div>
 
     <nav>
         <div class="logo">
