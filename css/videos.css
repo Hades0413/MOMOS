@@ -616,22 +616,21 @@ input {
     align-items: center;
     z-index: 1;
     padding: 0 20px;
-  }
-  
-  #video-controls button {
+}
+
+#video-controls button {
     background-color: transparent;
     border: none;
     color: white;
     font-size: 58px;
     cursor: pointer;
     outline: none;
-  }
-  
-  #previous-video-btn {
+}
+
+#previous-video-btn {
     margin-right: auto;
-  }
-  
-  #next-video-btn {
+}
+
+#next-video-btn {
     margin-left: auto;
-  }
-  
+}
