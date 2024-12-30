@@ -1,0 +1,9 @@
+# Bloquear acceso al directorio /admin/ para todos los agentes de usuario
+User-agent: *
+Disallow: /admin/
+
+# Permitir el acceso a todo lo demás en el sitio
+Allow: /
+
+# Ubicación del mapa del sitio (sitemap)
+Sitemap: https://eljajas0413.netlify.app/sitemap.xml

@@ -1,589 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Videos</title>
 
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Videos</title>
-        <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
-        <link rel="stylesheet" href="css/videos.css">
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/4dd764bfea.js" crossorigin="anonymous"></script>
-</head>
+    <meta
+      name="description"
+      content="eljajas0413 con memes, humor y contenido viral."
+    />
+    <link rel="canonical" href="https://eljajas0413.netlify.app/videos" />
 
-<body>
-        <!-- CARGA -->
-        <div id="fullscreen-image"></div>
-        <!-- CARGA -->
-        <nav>
-                <div class="logo">
-                        <a href="index.html">
-                                <img loading="lazy" class="logo-img" src="assets/img/logo.png"></a>
-                </div>
-                <label for="btn" class="icon">
-                        <span class="fa fa-bars"></span>
-                </label>
-                <input type="checkbox" id="btn">
-                <ul>
-                        <li><a class="link" href="index.html">HOME</a></li>
-                        <li><a class="link" href="imagenes.html">IMÁGENES</a></li>
-                        <li><a class="link" href="videos.html">VIDEOS</a></li>
-                        <li><a class="link" href="nosotros.html">NOSOTROS</a></li>
-                </ul>
-        </nav>
-        <h2 class="titulo">MEME TUBE</h2>
-        <div class="contenedor">
+    <!-- Optimización SEO y redes sociales -->
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "eljajas0413",
+        "description": "eljajas0413 con memes, humor y contenido viral.",
+        "url": "https://eljajas0413.netlify.app/videos"
+      }
+    </script>
 
-                <div class="video-contenedor">
+    <!-- Open Graph y Twitter Card -->
+    <meta
+      property="og:title"
+      content="eljajas0413 con memes, humor y contenido viral."
+    />
+    <meta
+      property="og:description"
+      content="eljajas0413 con memes, humor y contenido viral."
+    />
+    <meta
+      property="og:image"
+      content="https://eljajas0413.netlify.app/videos/imagenes/portafolio-imagen.jpg"
+    />
+    <meta property="og:url" content="https://eljajas0413.netlify.app/videos" />
+    <meta name="twitter:card" content="summary_large_image" />
 
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/1.png"
-                                        src="assets/video/3.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/2.png"
-                                        src="assets/video/4.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/3.png"
-                                        src="assets/video/5.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/4.png"
-                                        src="assets/video/6.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/5.png"
-                                        src="assets/video/7.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/6.png"
-                                        src="assets/video/8.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/7.png"
-                                        src="assets/video/9.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/8.png"
-                                        src="assets/video/10.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/9.png"
-                                        src="assets/video/11.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/10.png"
-                                        src="assets/video/12.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/11.png"
-                                        src="assets/video/13.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/12.png"
-                                        src="assets/video/14.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/13.png"
-                                        src="assets/video/15.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/14.png"
-                                        src="assets/video/16.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/15.png"
-                                        src="assets/video/17.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/16.png"
-                                        src="assets/video/18.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/17.png"
-                                        src="assets/video/19.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/18.png"
-                                        src="assets/video/20.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/19.png"
-                                        src="assets/video/21.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/20.png"
-                                        src="assets/video/22.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/21.png"
-                                        src="assets/video/23.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/22.png"
-                                        src="assets/video/24.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/23.png"
-                                        src="assets/video/25.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/24.png"
-                                        src="assets/video/26.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/25.png"
-                                        src="assets/video/27.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/26.png"
-                                        src="assets/video/28.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/27.png"
-                                        src="assets/video/29.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/28.png"
-                                        src="assets/video/30.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/29.png"
-                                        src="assets/video/31.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/30.png"
-                                        src="assets/video/32.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/31.png"
-                                        src="assets/video/33.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/32.png"
-                                        src="assets/video/34.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/33.png"
-                                        src="assets/video/35.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/34.png"
-                                        src="assets/video/36.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/35.png"
-                                        src="assets/video/37.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/36.png"
-                                        src="assets/video/38.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/37.png"
-                                        src="assets/video/39.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/38.png"
-                                        src="assets/video/40.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/39.png"
-                                        src="assets/video/41.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/40.png"
-                                        src="assets/video/42.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/41.png"
-                                        src="assets/video/43.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/42.png"
-                                        src="assets/video/44.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/43.png"
-                                        src="assets/video/45.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/44.png"
-                                        src="assets/video/46.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/45.png"
-                                        src="assets/video/47.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/46.png"
-                                        src="assets/video/48.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/47.png"
-                                        src="assets/video/49.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/48.png"
-                                        src="assets/video/50.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/49.png"
-                                        src="assets/video/51.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/50.png"
-                                        src="assets/video/52.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/51.png"
-                                        src="assets/video/53.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/52.png"
-                                        src="assets/video/54.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/53.png"
-                                        src="assets/video/55.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/54.png"
-                                        src="assets/video/56.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/55.png"
-                                        src="assets/video/57.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/56.png"
-                                        src="assets/video/58.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/57.png"
-                                        src="assets/video/59.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/58.png"
-                                        src="assets/video/60.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/59.png"
-                                        src="assets/video/61.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/60.png"
-                                        src="assets/video/62.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/61.png"
-                                        src="assets/video/63.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/62.png"
-                                        src="assets/video/64.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/63.png"
-                                        src="assets/video/65.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/64.png"
-                                        src="assets/video/66.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/65.png"
-                                        src="assets/video/67.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/66.png"
-                                        src="assets/video/68.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/67.png"
-                                        src="assets/video/69.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/68.png"
-                                        src="assets/video/70.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/69.png"
-                                        src="assets/video/71.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/70.png"
-                                        src="assets/video/72.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/71.png"
-                                        src="assets/video/73.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/72.png"
-                                        src="assets/video/74.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/73.png"
-                                        src="assets/video/75.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/74.png"
-                                        src="assets/video/76.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/75.png"
-                                        src="assets/video/77.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/76.png"
-                                        src="assets/video/78.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/77.png"
-                                        src="assets/video/79.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/78.png"
-                                        src="assets/video/80.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/79.png"
-                                        src="assets/video/81.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/80.png"
-                                        src="assets/video/82.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/81.png"
-                                        src="assets/video/83.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/82.png"
-                                        src="assets/video/84.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/83.png"
-                                        src="assets/video/85.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/84.png"
-                                        src="assets/video/86.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/85.png"
-                                        src="assets/video/87.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/86.png"
-                                        src="assets/video/88.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/87.png"
-                                        src="assets/video/89.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/88.png"
-                                        src="assets/video/90.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/89.png"
-                                        src="assets/video/91.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/90.png"
-                                        src="assets/video/92.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/91.png"
-                                        src="assets/video/93.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/92.png"
-                                        src="assets/video/94.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/93.png"
-                                        src="assets/video/95.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/94.png"
-                                        src="assets/video/96.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/95.png"
-                                        src="assets/video/97.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/96.png"
-                                        src="assets/video/98.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/97.png"
-                                        src="assets/video/99.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/98.png"
-                                        src="assets/video/100.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/99.png"
-                                        src="assets/video/101.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/100.png"
-                                        src="assets/video/102.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/101.png"
-                                        src="assets/video/103.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/102.png"
-                                        src="assets/video/104.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/103.png"
-                                        src="assets/video/105.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/104.png"
-                                        src="assets/video/106.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/105.png"
-                                        src="assets/video/107.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/106.png"
-                                        src="assets/video/108.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/107.png"
-                                        src="assets/video/109.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/108.png"
-                                        src="assets/video/110.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/109.png"
-                                        src="assets/video/111.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/110.png"
-                                        src="assets/video/112.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/111.png"
-                                        src="assets/video/113.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/112.png"
-                                        src="assets/video/114.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/113.png"
-                                        src="assets/video/115.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/114.png"
-                                        src="assets/video/116.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/115.png"
-                                        src="assets/video/117.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/116.png"
-                                        src="assets/video/118.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/117.png"
-                                        src="assets/video/119.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/118.png"
-                                        src="assets/video/120.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/119.png"
-                                        src="assets/video/121.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/120.png"
-                                        src="assets/video/122.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/121.png"
-                                        src="assets/video/123.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/122.png"
-                                        src="assets/video/124.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/123.png"
-                                        src="assets/video/125.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/124.png"
-                                        src="assets/video/126.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/125.png"
-                                        src="assets/video/127.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/126.png"
-                                        src="assets/video/128.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/127.png"
-                                        src="assets/video/129.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/128.png"
-                                        src="assets/video/130.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/129.png"
-                                        src="assets/video/131.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/130.png"
-                                        src="assets/video/132.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/133.png"
-                                        src="assets/video/133.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/134.png"
-                                        src="assets/video/134.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/135.png"
-                                        src="assets/video/135.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/136.png"
-                                        src="assets/video/136.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/137.png"
-                                        src="assets/video/137.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/138.png"
-                                        src="assets/video/138.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/139.png"
-                                        src="assets/video/139.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/140.png"
-                                        src="assets/video/140.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/141.png"
-                                        src="assets/video/141.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/142.png"
-                                        src="assets/video/142.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/143.png"
-                                        src="assets/video/143.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/144.png"
-                                        src="assets/video/144.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/145.png"
-                                        src="assets/video/145.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/146.png"
-                                        src="assets/video/146.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/147.png"
-                                        src="assets/video/147.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/148.png"
-                                        src="assets/video/148.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/149.png"
-                                        src="assets/video/149.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/150.png"
-                                        src="assets/video/150.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/151.png"
-                                        src="assets/video/151.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/152.png"
-                                        src="assets/video/152.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/153.png"
-                                        src="assets/video/153.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/154.png"
-                                        src="assets/video/154.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/155.png"
-                                        src="assets/video/155.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/156.png"
-                                        src="assets/video/156.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/157.png"
-                                        src="assets/video/157.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/158.png"
-                                        src="assets/video/158.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/159.png"
-                                        src="assets/video/159.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/160.png"
-                                        src="assets/video/160.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/161.png"
-                                        src="assets/video/161.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/162.png"
-                                        src="assets/video/162.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
+    <!-- Preconnect to third-party origins -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
 
+    <!-- Favicon y estilos -->
 
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/131.png"
-                                        src="assets/video/1.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                        <div class="video"><video loading="lazy" poster="assets/miniatura/132.png"
-                                        src="assets/video/2.mp4" muted></video><i class="fa-solid fa-circle-play"></i>
-                        </div>
-                </div>
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/videos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4dd764bfea.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
 
-                <div class="emergente">
-                        <span class="close-btn"><i class="fa-solid fa-circle-xmark"></i></span>
-                        <video id="emergente-video" src="" controls></video>
-                        <img loading="lazy" src="assets/img/1.png" alt="">
-                        <div id="video-controls">
-                                <button id="previous-video-btn">&lt;</button>
-                                <button id="next-video-btn">&gt;</button>
-                        </div>
-                </div>
-        </div>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
-
-        <footer class="footer-distributed">
-                <div class="footer-left">
-                        <h3>Space <span>Coders</span></h3>
-                        <p class="footer-links">
-                                <a href="index.html">Inicio</a> |
-                                <a href="imagenes.html">Imágenes</a> |
-                                <a href="videos.html">Videos</a> |
-                                <a href="nosotros.html">Nosotros</a>
-                        </p>
-                        <p class="footer-logo-name">
-                                ©Copyright 2023 <strong>SpaceCoders</strong> Todos los derechos reservados <br>
-                                ©Copyright 2023 <strong>Yhadira</strong> <br>
-                                ©Copyright 2023 <strong>Hades0413</strong>
-                        </p>
-                </div>
-
-                <div class="footer-center">
-                        <div><i class="ri-git-repository-private-line"></i>
-                                <p><a href="#">Política y privacidad</a></p>
-                        </div>
-                        <div><i class="ri-phone-fill"></i>
-                                <p><a href="#">+51 999 999 999</a></p>
-                        </div>
-                        <div><i class="ri-mail-fill"></i><a href="#">hades.0413@hotmail.com</a></div>
-                </div>
-
-                <div class="footer-right">
-                        <p class="footer-company-about">
-                                <span>Nosotros</span>
-                                <strong>SpaceCoders</strong>
-                                es una página web que te sumerge en el fascinante mundo de los memes en línea,
-                                ofreciéndote una
-                                colección
-                                selecta de humor viral y contenido creativo que te hará reír sin parar.
-                        </p>
-                        <div class="footer-icons">
-                                <a href="#"><i class="ri-facebook-circle-fill"></i></a>
-                                <a href="#"><i class="ri-instagram-line"></i></a>
-                                <a href="#"><i class="ri-twitter-fill"></i></a>
-                                <a href="#"><i class="ri-youtube-fill"></i></a>
-                        </div>
-                </div>
-        </footer>
-
-        <script src="js/videos.js"></script>
-
-</body>
-
-</html>
+    <!-- Preload critical resources -->
+    <link
+      rel="preload"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      as="style"
+    />
+  </head>
+ <body> <!-- CARGA --> <div id="fullscreen-image"></div> <!-- CARGA --> <nav> <div class="logo"> <a href="index.html"> <img loading="lazy" alt="meme" class="logo-img" src="assets/img/logo.png" /></a> </div> <label for="btn" class="icon"> <span class="fa fa-bars"></span> </label> <input type="checkbox" id="btn" /> <ul> <li><a aria-label="SpaceCoders" class="link" href="index.html">HOME</a></li> <li> <a aria-label="SpaceCoders" class="link" href="imagenes.html" >IMÁGENES</a > </li> <li> <a aria-label="SpaceCoders" class="link" href="videos.html">VIDEOS</a> </li> <li> <a aria-label="SpaceCoders" class="link" href="nosotros.html" >NOSOTROS</a > </li> </ul> </nav> <h2 class="titulo">MEME TUBE</h2> <div class="contenedor"> <div class="video-contenedor"> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/1.png" src="assets/video/3.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/2.png" src="assets/video/4.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/3.png" src="assets/video/5.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/4.png" src="assets/video/6.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/5.png" src="assets/video/7.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/6.png" src="assets/video/8.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/7.png" src="assets/video/9.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/8.png" src="assets/video/10.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/9.png" src="assets/video/11.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/10.png" src="assets/video/12.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/11.png" src="assets/video/13.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/12.png" src="assets/video/14.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/13.png" src="assets/video/15.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/14.png" src="assets/video/16.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/15.png" src="assets/video/17.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/16.png" src="assets/video/18.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/17.png" src="assets/video/19.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/18.png" src="assets/video/20.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/19.png" src="assets/video/21.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/20.png" src="assets/video/22.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/21.png" src="assets/video/23.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/22.png" src="assets/video/24.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/23.png" src="assets/video/25.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/24.png" src="assets/video/26.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/25.png" src="assets/video/27.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/26.png" src="assets/video/28.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/27.png" src="assets/video/29.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/28.png" src="assets/video/30.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/29.png" src="assets/video/31.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/30.png" src="assets/video/32.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/31.png" src="assets/video/33.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/32.png" src="assets/video/34.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/33.png" src="assets/video/35.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/34.png" src="assets/video/36.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/35.png" src="assets/video/37.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/36.png" src="assets/video/38.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/37.png" src="assets/video/39.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/38.png" src="assets/video/40.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/39.png" src="assets/video/41.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/40.png" src="assets/video/42.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/41.png" src="assets/video/43.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/42.png" src="assets/video/44.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/43.png" src="assets/video/45.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/44.png" src="assets/video/46.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/45.png" src="assets/video/47.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/46.png" src="assets/video/48.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/47.png" src="assets/video/49.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/48.png" src="assets/video/50.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/49.png" src="assets/video/51.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/50.png" src="assets/video/52.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/51.png" src="assets/video/53.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/52.png" src="assets/video/54.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/53.png" src="assets/video/55.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/54.png" src="assets/video/56.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/55.png" src="assets/video/57.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/56.png" src="assets/video/58.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/57.png" src="assets/video/59.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/58.png" src="assets/video/60.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/59.png" src="assets/video/61.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/60.png" src="assets/video/62.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/61.png" src="assets/video/63.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/62.png" src="assets/video/64.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/63.png" src="assets/video/65.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/64.png" src="assets/video/66.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/65.png" src="assets/video/67.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/66.png" src="assets/video/68.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/67.png" src="assets/video/69.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/68.png" src="assets/video/70.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/69.png" src="assets/video/71.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/70.png" src="assets/video/72.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/71.png" src="assets/video/73.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/72.png" src="assets/video/74.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/73.png" src="assets/video/75.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/74.png" src="assets/video/76.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/75.png" src="assets/video/77.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/76.png" src="assets/video/78.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/77.png" src="assets/video/79.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/78.png" src="assets/video/80.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/79.png" src="assets/video/81.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/80.png" src="assets/video/82.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/81.png" src="assets/video/83.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/82.png" src="assets/video/84.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/83.png" src="assets/video/85.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/84.png" src="assets/video/86.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/85.png" src="assets/video/87.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/86.png" src="assets/video/88.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/87.png" src="assets/video/89.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/88.png" src="assets/video/90.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/89.png" src="assets/video/91.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/90.png" src="assets/video/92.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/91.png" src="assets/video/93.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/92.png" src="assets/video/94.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/93.png" src="assets/video/95.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/94.png" src="assets/video/96.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/95.png" src="assets/video/97.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/96.png" src="assets/video/98.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/97.png" src="assets/video/99.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/98.png" src="assets/video/100.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/99.png" src="assets/video/101.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/100.png" src="assets/video/102.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/101.png" src="assets/video/103.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/102.png" src="assets/video/104.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/103.png" src="assets/video/105.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/104.png" src="assets/video/106.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/105.png" src="assets/video/107.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/106.png" src="assets/video/108.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/107.png" src="assets/video/109.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/108.png" src="assets/video/110.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/109.png" src="assets/video/111.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/110.png" src="assets/video/112.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/111.png" src="assets/video/113.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/112.png" src="assets/video/114.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/113.png" src="assets/video/115.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/114.png" src="assets/video/116.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/115.png" src="assets/video/117.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/116.png" src="assets/video/118.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/117.png" src="assets/video/119.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/118.png" src="assets/video/120.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/119.png" src="assets/video/121.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/120.png" src="assets/video/122.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/121.png" src="assets/video/123.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/122.png" src="assets/video/124.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/123.png" src="assets/video/125.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/124.png" src="assets/video/126.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/125.png" src="assets/video/127.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/126.png" src="assets/video/128.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/127.png" src="assets/video/129.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/128.png" src="assets/video/130.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/129.png" src="assets/video/131.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/130.png" src="assets/video/132.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/133.png" src="assets/video/133.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/134.png" src="assets/video/134.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/135.png" src="assets/video/135.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/136.png" src="assets/video/136.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/137.png" src="assets/video/137.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/138.png" src="assets/video/138.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/139.png" src="assets/video/139.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/140.png" src="assets/video/140.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/141.png" src="assets/video/141.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/142.png" src="assets/video/142.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/143.png" src="assets/video/143.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/144.png" src="assets/video/144.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/145.png" src="assets/video/145.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/146.png" src="assets/video/146.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/147.png" src="assets/video/147.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/148.png" src="assets/video/148.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/149.png" src="assets/video/149.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/150.png" src="assets/video/150.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/151.png" src="assets/video/151.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/152.png" src="assets/video/152.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/153.png" src="assets/video/153.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/154.png" src="assets/video/154.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/155.png" src="assets/video/155.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/156.png" src="assets/video/156.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/157.png" src="assets/video/157.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/158.png" src="assets/video/158.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/159.png" src="assets/video/159.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/160.png" src="assets/video/160.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/161.png" src="assets/video/161.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/162.png" src="assets/video/162.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/131.png" src="assets/video/1.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> <div class="video"> <video loading="lazy" alt="Meme" poster="assets/miniatura/132.png" src="assets/video/2.mp4" muted ></video ><i class="fa-solid fa-circle-play"></i> </div> </div> <div class="emergente"> <span class="close-btn"><i class="fa-solid fa-circle-xmark"></i></span> <video id="emergente-video" src="" controls></video> <img loading="lazy" alt="meme" src="assets/img/1.png" alt="" /> <div id="video-controls"> <button id="previous-video-btn">&lt;</button> <button id="next-video-btn">&gt;</button> </div> </div> </div> <footer class="footer-distributed"> <div class="footer-left"> <h3>Space<span>Coders</span></h3> <p class="footer-links"> <a aria-label="SpaceCoders" href="index.html">Inicio</a> | <a aria-label="SpaceCoders" href="imagenes.html">Imágenes</a> | <a aria-label="SpaceCoders" href="videos.html">Videos</a> | <a aria-label="SpaceCoders" href="nosotros.html">Nosotros</a> </p> <p class="footer-logo-name"> ©Copyright 2023 <strong>SpaceCoders</strong> Todos los derechos reservados <br /> ©Copyright 2023 <strong>Yhadira</strong> <br /> ©Copyright 2023 <strong>Hades0413</strong> </p> </div> <div class="footer-center"> <div> <i class="ri-git-repository-private-line"></i> <p><a aria-label="SpaceCoders" href="#">Política y privacidad</a></p> </div> <div> <i class="ri-phone-fill"></i> <p><a aria-label="SpaceCoders" href="#">+51 999 999 999</a></p> </div> <div> <i class="ri-mail-fill"></i ><a aria-label="SpaceCoders" href="#">hades.0413@hotmail.com</a> </div> </div> <div class="footer-right"> <p class="footer-company-about"> <span>Nosotros</span> <strong>SpaceCoders</strong> es una página web que te sumerge en el fascinante mundo de los memes en línea, ofreciéndote una colección selecta de humor viral y contenido creativo que te hará reír sin parar. </p> <div class="footer-icons"> <a aria-label="SpaceCoders" href="#" ><i class="ri-facebook-circle-fill"></i ></a> <a aria-label="SpaceCoders" href="#" ><i class="ri-instagram-line"></i ></a> <a aria-label="SpaceCoders" href="#" ><i class="ri-twitter-fill"></i ></a> <a aria-label="SpaceCoders" href="#" ><i class="ri-youtube-fill"></i ></a> </div> </div> </footer> <script src="js/videos.js"></script> </body></html>

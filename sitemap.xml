@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Página principal -->
+    <url>
+        <loc>https://eljajas0413.netlify.app/</loc>
+        <lastmod>2024-12-30T12:00:00+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Página Nosotros -->
+    <url>
+        <loc>https://eljajas0413.netlify.app/nosotros</loc>
+        <lastmod>2024-12-30T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Página Videos -->
+    <url>
+        <loc>https://eljajas0413.netlify.app/videos</loc>
+        <lastmod>2024-12-30T12:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Página de imágenes -->
+    <url>
+        <loc>https://eljajas0413.netlify.app/imagenes</loc>
+        <lastmod>2024-12-30T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Imágenes -->
+    <url>
+        <loc>https://eljajas0413.netlify.app/assets/img/1.png</loc>
+        <lastmod>2024-12-30T12:00:00+00:00</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://eljajas0413.netlify.app/assets/img/logo.png</loc>
+        <lastmod>2024-12-30T12:00:00+00:00</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <!-- Continuar con todas las demás imágenes relevantes aquí... -->
+
+    <!-- Videos -->
+    <url>
+        <loc>https://eljajas0413.netlify.app/assets/video/1.mp4</loc>
+        <lastmod>2024-12-30T12:00:00+00:00</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://eljajas0413.netlify.app/assets/video/100.mp4</loc>
+        <lastmod>2024-12-30T12:00:00+00:00</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <!-- Continuar con todos los videos relevantes aquí... -->
+
+    <!-- Recursos CSS y JS -->
+    <url>
+        <loc>https://eljajas0413.netlify.app/css/style.css</loc>
+        <lastmod>2024-12-30T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://eljajas0413.netlify.app/js/script.js</loc>
+        <lastmod>2024-12-30T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Página de robots.txt -->
+    <url>
+        <loc>https://eljajas0413.netlify.app/robots.txt</loc>
+        <lastmod>2024-12-30T12:00:00+00:00</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
+    </url>
+
+    <!-- Sitemap -->
+    <url>
+        <loc>https://eljajas0413.netlify.app/sitemap.xml</loc>
+        <lastmod>2024-12-30T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+</urlset>
